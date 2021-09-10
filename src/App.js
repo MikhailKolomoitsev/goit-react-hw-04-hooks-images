@@ -80,7 +80,7 @@ export default function App() {
           width={80}
         />
       )}
-      {pics.length &&
+      {pics.length > 0 &&
         <Button onClick={loadMore} />}
 
       {showModal && (
